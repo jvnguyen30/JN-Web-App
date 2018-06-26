@@ -1,3 +1,3 @@
 var num = 1 + 1;
 document.write("hi");
-document.write(num);
+document.write("wassup");
