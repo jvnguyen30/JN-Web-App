@@ -1,3 +1,2 @@
 var num = 1 + 1;
-document.write("hi");
-document.write(num.toString());
+document.getElementById("demo").innerHTML = num;
