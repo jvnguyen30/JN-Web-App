@@ -3,5 +3,5 @@
   padding: 10px;
 }
 body{
-  background-color: black;
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
 }
