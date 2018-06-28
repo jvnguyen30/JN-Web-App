@@ -3,5 +3,5 @@
   padding: 10px;
 }
 body{
-  background: linear-gradient(red, white);
+  background: linear-gradient(to bottom, red, white);
 }
