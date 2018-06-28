@@ -4,6 +4,6 @@ var num = 1 + 1;
 function myFunction()
 {
   var x = document.getElementById("myTextArea").value;
-  x = parseInt(x) + 2;
-  document.getElementById("demo").innerHTML = x;
+  var y = parseInt(x) + 2;
+  document.getElementById("demo").innerHTML = y;
 }
