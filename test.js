@@ -1,17 +1,29 @@
 function myFunction()
 {
-  //var num = 2;
+  var gpa = 0, totalCredits = 0, totalPoints = 0, prevGPA = 0, prevCredits = 0;
+  var creditsArr = [];
+  var pointsArr = [];
+  var num = 1;
   //var numAsString = num.toString();
   //var str = "myTextArea" + numAsString;
-  var x = document.getElementById("myTextArea2").value;
-  var empty = " ";
-  if(x === "")
+  //var x = document.getElementById("myTextArea2").value;
+  for(int x = 0; x < 7; x++)
   {
-    empty = "true";
-  }
-  else
-  {
-    empty = "false";
-  }
-  document.getElementById("demo").innerHTML = empty;
+    let numAsString = num.toString();
+    let str = "myTextArea" + numAsString;
+    let credits = document.getElementById(str).value;
+    num++;
+    numAsString = num.toString();
+    str = "myTextArea" + numAsString;
+    let grade = document.getElementById(str).value;
+    if(credits === "")
+    {
+      continue;
+    }
+    else
+    {
+      totalCredits += credits;
+    }
+  
+  document.getElementById("demo").innerHTML = 1;
 }
