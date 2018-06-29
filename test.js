@@ -24,6 +24,7 @@ function myFunction()
     {
       totalCredits += credits;
     }
+  }
   
   document.getElementById("demo").innerHTML = 1;
 }
