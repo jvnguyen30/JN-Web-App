@@ -26,5 +26,5 @@ function myFunction()
     }
   }
   
-  document.getElementById("demo").innerHTML = 1;
+  document.getElementById("demo").innerHTML = "hello";
 }
