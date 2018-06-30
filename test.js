@@ -26,5 +26,5 @@ function myFunction()
     }
   }
   
-  document.getElementById("demo").innerHTML = "hello";
+  document.getElementById("demo").innerHTML = "LeBron";
 }
