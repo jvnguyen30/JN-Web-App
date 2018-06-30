@@ -4,18 +4,22 @@ function myFunction()
   var creditsArr = [];
   var pointsArr = [];
   var num = 1;
+  var numAsString = "";
+  var str = "";
+  var credits = 0;
+  var grade = "";
   //var numAsString = num.toString();
   //var str = "myTextArea" + numAsString;
   //var x = document.getElementById("myTextArea2").value;
   for(int x = 0; x < 7; x++)
   {
-    let numAsString = num.toString();
-    let str = "myTextArea" + numAsString;
-    let credits = document.getElementById(str).value;
+    numAsString = num.toString();
+    str = "myTextArea" + numAsString;
+    credits = document.getElementById(str).value;
     num++;
     numAsString = num.toString();
     str = "myTextArea" + numAsString;
-    let grade = document.getElementById(str).value;
+    grade = document.getElementById(str).value;
     if(credits === "")
     {
       continue;
