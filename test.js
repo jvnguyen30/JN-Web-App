@@ -20,14 +20,14 @@ function myFunction()
     numAsString = num.toString();
     str = "myTextArea" + numAsString;
     grade = document.getElementById(str).value;
-    if(credits === "")
+    /*if(credits === "")
     {
       continue;
     }
     else
     {
       totalCredits += credits;
-    }
+    }*/
   }
   var test = "LeBron";
   document.getElementById("demo").innerHTML = test;
