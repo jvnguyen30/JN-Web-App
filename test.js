@@ -7,7 +7,7 @@ function myFunction()
   //var numAsString = num.toString();
   //var str = "myTextArea" + numAsString;
   //var x = document.getElementById("myTextArea2").value;
-  /*for(int x = 0; x < 7; x++)
+  for(int x = 0; x < 7; x++)
   {
     let numAsString = num.toString();
     let str = "myTextArea" + numAsString;
@@ -24,7 +24,7 @@ function myFunction()
     {
       totalCredits += credits;
     }
-  }*/
+  }
   var test = "LeBron";
   document.getElementById("demo").innerHTML = test;
 }
