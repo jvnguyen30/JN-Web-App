@@ -25,6 +25,6 @@ function myFunction()
       totalCredits += credits;
     }
   }
-  
-  document.getElementById("demo").innerHTML = "LeBron";
+  var test = "LeBron";
+  document.getElementById("demo").innerHTML = test;
 }
