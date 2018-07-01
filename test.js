@@ -82,6 +82,7 @@ function myFunction()
   totalPoints += prevGPA * prevCredits;
   gpa = totalPoints/totalCredits;
   gpa = gpa.toFixed(3);
-  document.getElementById("demo").innerHTML = totalCredits;
-  document.getElementById("demo2").innerHTML = gpa;
+  gpa = gpa.toString();
+  document.getElementById("demo").innerHTML = "Your GPA: " + gpa;
+  //document.getElementById("demo2").innerHTML = gpa;
 }
