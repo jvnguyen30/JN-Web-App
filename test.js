@@ -75,6 +75,7 @@ function myFunction()
   }
   //var test = "LeBron";
   gpa = totalPoints/totalCredits;
+  gpa = gpa.toFixed(3);
   document.getElementById("demo").innerHTML = totalCredits;
   document.getElementById("demo2").innerHTML = gpa;
 }
