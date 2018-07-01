@@ -5,6 +5,7 @@ function myFunction()
   var pointsArr = [];
   var num = 1;
   var numAsString = "";
+  var numAsString2 = "";
   var str = "";
   var credits = 0;
   var grade = "";
@@ -17,7 +18,7 @@ function myFunction()
     //str = "myTextArea" + numAsString;
     //credits = document.getElementById(str).value;
     num++;
-    numAsString = num.toString();
+    numAsString2 = num.toString();
     //str = "myTextArea" + numAsString;
     //grade = document.getElementById(str).value;
     /*if(credits === "")
@@ -30,5 +31,5 @@ function myFunction()
     }*/
   }
   var test = "LeBron";
-  document.getElementById("demo").innerHTML = numAsString;
+  document.getElementById("demo").innerHTML = numAsString2;
 }
