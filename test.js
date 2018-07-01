@@ -16,6 +16,7 @@ function myFunction()
     numAsString = num.toString();
     str = "myTextArea" + numAsString;
     let grade = document.getElementById(str).value.toString();
+    num++;
     if(credits === "")
     {
       continue;
