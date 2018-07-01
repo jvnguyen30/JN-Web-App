@@ -11,7 +11,7 @@ function myFunction()
   {
     let numAsString = num.toString();
     let str = "myTextArea" + numAsString;
-    let credits = parseInt(document.getElementById(str).value);
+    let credits = document.getElementById(str).value;
     num++;
     numAsString = num.toString();
     str = "myTextArea" + numAsString;
@@ -22,7 +22,7 @@ function myFunction()
     }
     else
     {
-      totalCredits += credits;
+      totalCredits += parseInt(credits);
     }
   }
   var test = "LeBron";
