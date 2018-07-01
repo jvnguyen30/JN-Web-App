@@ -11,11 +11,11 @@ function myFunction()
   {
     let numAsString = num.toString();
     let str = "myTextArea" + numAsString;
-    let credits = document.getElementById(str).value;
+    let credits = parseInt(document.getElementById(str).value);
     num++;
     numAsString = num.toString();
     str = "myTextArea" + numAsString;
-    let grade = document.getElementById(str).value;
+    let grade = document.getElementById(str).value.toString();
     if(credits === "")
     {
       continue;
