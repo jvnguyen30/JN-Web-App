@@ -15,28 +15,20 @@ function myFunction()
     let numAsString = num.toString();
     let str = "myTextArea" + numAsString;
     let credits = document.getElementById(str).value;
-    num++;
+    num++; //iterate num to get grade
     numAsString = num.toString();
     str = "myTextArea" + numAsString;
     let grade = document.getElementById(str).value;
-    num++;
-    if(credits === "")
-    {
-      continue;
-    }
-    else
+    num++; //iterate num for next iteration of loop
+    if(credits != "")
     {
       totalCredits += parseInt(credits);
     }
-    if(grade === "")
-    {
-      continue;
-    }
-    else
+    if(grade != "")
     {
       printGrade += grade + " ";
     }
   }
-  var test = "LeBron";
+  //var test = "LeBron";
   document.getElementById("demo").innerHTML = printGrade;
 }
