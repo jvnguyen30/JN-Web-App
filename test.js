@@ -26,5 +26,5 @@ function myFunction()
     }
   }
   var test = "LeBron";
-  document.getElementById("demo").innerHTML = test;
+  document.getElementById("demo").innerHTML = totalCredits;
 }
