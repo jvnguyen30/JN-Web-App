@@ -75,11 +75,14 @@ function myFunction()
   }
   
   prevCredits = document.getElementById("myTextArea15").value;
-  prevCredits = parseInt(prevCredits);
-  prevGPA = document.getElementById("myTextArea16").value;
-  prevGPA = parseFloat(prevGPA);
-  totalCredits += prevCredits;
-  totalPoints += prevGPA * prevCredits;
+  if(prevCredits != "")
+  {
+    prevCredits = parseInt(prevCredits);
+    prevGPA = document.getElementById("myTextArea16").value;
+    prevGPA = parseFloat(prevGPA);
+    totalCredits += prevCredits;
+    totalPoints += prevGPA * prevCredits;
+  }
   gpa = totalPoints/totalCredits;
   gpa = gpa.toFixed(3);
   let gpaStr = gpa.toString();
