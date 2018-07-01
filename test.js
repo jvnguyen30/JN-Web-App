@@ -73,7 +73,13 @@ function myFunction()
       totalPoints += points;
     }
   }
-  //var test = "LeBron";
+  
+  prevCredits = document.getElementById("myTextArea15").value;
+  prevCredits = parseInt(prevCredits);
+  prevGPA = document.getElementById("myTextArea16").value;
+  prevGPA = parseFloat(prevGPA);
+  totalCredits += prevCredits;
+  totalPoints += prevGPA * prevCredits;
   gpa = totalPoints/totalCredits;
   gpa = gpa.toFixed(3);
   document.getElementById("demo").innerHTML = totalCredits;
