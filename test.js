@@ -14,12 +14,12 @@ function myFunction()
   for(int x = 0; x < 7; x++)
   {
     numAsString = num.toString();
-    str = "myTextArea" + numAsString;
-    credits = document.getElementById(str).value;
+    //str = "myTextArea" + numAsString;
+    //credits = document.getElementById(str).value;
     num++;
     numAsString = num.toString();
-    str = "myTextArea" + numAsString;
-    grade = document.getElementById(str).value;
+    //str = "myTextArea" + numAsString;
+    //grade = document.getElementById(str).value;
     /*if(credits === "")
     {
       continue;
@@ -30,5 +30,5 @@ function myFunction()
     }*/
   }
   var test = "LeBron";
-  document.getElementById("demo").innerHTML = test;
+  document.getElementById("demo").innerHTML = numAsString;
 }
