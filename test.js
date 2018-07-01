@@ -30,5 +30,6 @@ function myFunction()
     }
   }
   //var test = "LeBron";
-  document.getElementById("demo").innerHTML = printGrade;
+  document.getElementById("demo").innerHTML = totalCredits;
+  document.getElementById("demo2").innerHTML = printGrade;
 }
